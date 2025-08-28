@@ -18,16 +18,16 @@ int main()
 
         if (arr[mid] == find)
         {
-            result = mid; // found
+            result = mid; 
             break;
         }
         else if (arr[mid] < find)
         {
-            low = mid + 1; // search right half
+            low = mid + 1; 
         }
         else
         {
-            high = mid - 1; // search left half
+            high = mid - 1; 
         }
     }
 
@@ -38,3 +38,4 @@ int main()
 
     return 0;
 }
+
